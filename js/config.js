@@ -3,7 +3,7 @@
 // Los números van solo con dígitos e incluyen el 503. Ejemplo: "50370000000"
 
 const CLINICA = {
-  whatsapp: "50360160708",
+  whatsapp: "50378367740",
   telefono: "",
   mensajeWhatsApp: "Hola, quisiera información sobre los servicios de la Clínica Dental Dr. Alegría.",
 
