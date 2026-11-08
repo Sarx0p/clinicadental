@@ -206,7 +206,7 @@
     <!-- Nosotros -->
     <section class="section section-sky" id="nosotros">
       <div class="container about">
-        <img class="about-photo" src="assets/img/doctor.jpg"
+        <img class="about-photo" src="assets/img/doctor.jpeg"
              alt="Dr. Francisco Alegría atendiendo a un paciente en su consultorio" width="486" height="530" loading="lazy">
 
         <div class="about-text">
@@ -218,12 +218,11 @@
         </div>
 
         <aside class="doctor">
-          <img class="doctor-photo" src="assets/img/doctor-retrato.jpg" alt="Dr. Francisco Alegría" width="200" height="200" loading="lazy"
+          <img class="doctor-photo" src="assets/img/doctor-retrato.jpeg" alt="Dr. Francisco Alegría" width="200" height="200" loading="lazy"
                onerror="this.remove(); document.querySelector('.doctor-icon').hidden = false;">
           <svg class="doctor-icon" aria-hidden="true" hidden><use href="#i-tooth"/></svg>
           <h3>Dr. Francisco Alegría</h3>
           <p class="doctor-role">Odontólogo</p>
-          <p>N.º de Junta: 3282</p>
         </aside>
       </div>
     </section>
@@ -265,7 +264,10 @@
           <dl class="info">
             <div><dt><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Dirección:</dt><dd data-field="direccion">Colonia Vista Hermosa, F#3, Guazapa, San Salvador</dd></div>
             <div><dt><svg class="icon" aria-hidden="true"><use href="#i-flag"/></svg> Referencia:</dt><dd data-field="referencia">[Agregar punto de referencia]</dd></div>
-            <div><dt><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg> Horarios:</dt><dd data-field="horarios">[Agregar horarios de atención]</dd></div>
+            <div><dt><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg> Horarios:</dt><dd data-field="horarios">Atendemos dias de Lunes a Viernes desde las 8:00 am. hasta las 12:00 m.<br>
+            Por las noches desde las 6:00 pm. hasta las 8:30 pm.<br>
+          Día Miércoles libre.<br>
+        Sábado y Domingo desde las 8:00 am hasta las 12:00 m.</dd></div>
             <div><dt><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg> Teléfono:</dt><dd data-field="telefono">[Agregar número de teléfono]</dd></div>
             <div><dt><svg class="icon icon-fill" aria-hidden="true"><use href="#i-whatsapp"/></svg> WhatsApp:</dt><dd data-field="whatsapp">[Agregar número de WhatsApp]</dd></div>
           </dl>
@@ -273,6 +275,7 @@
             <svg class="icon" aria-hidden="true"><use href="#i-nav"/></svg>
             Cómo llegar
           </a>
+
         </div>
         <div class="map">
           <iframe id="mapa" title="Ubicación de Clínica Dental Dr. Alegría" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
@@ -287,7 +290,7 @@
         <div>
           <p class="kicker">Preguntas frecuentes</p>
           <h2>¿Tienes alguna duda?</h2>
-          <p>Si no encuentras lo que buscas, escríbenos.</p>
+          <p>Si no encuentras lo que buscas, escríbenos a nuestro número de Whatsapp.</p>
         </div>
         <div class="accordion" id="faq">
           <div class="faq-item">
@@ -311,13 +314,23 @@
           <div class="faq-item">
             <h3><button type="button" aria-expanded="false" aria-controls="faq-4" id="faq-b4">¿Cuáles son los horarios de atención?<svg class="icon" aria-hidden="true"><use href="#i-plus-small"/></svg></button></h3>
             <div class="faq-answer" id="faq-4" role="region" aria-labelledby="faq-b4" hidden>
-              <p data-faq="horarios">Comunícate con la clínica para conocer los horarios de atención.</p>
+              <p data-faq="horarios">Horario de atencion:
+                Lunes, Martes, Jueves, Viernes: <br>
+                 8:00 am - 12:00 m.<br>
+                 Tambien atendemos por la noche de:<br>
+                 6:00 pm - 8:30 pm.<br>
+
+                 Miércoles - Dia libre.<br>
+
+                 Sábado y Domingo:<br>
+                 8:00 am : 12:00 m.<br>
+              </p>
             </div>
           </div>
           <div class="faq-item">
             <h3><button type="button" aria-expanded="false" aria-controls="faq-5" id="faq-b5">¿Cómo puedo comunicarme con la clínica?<svg class="icon" aria-hidden="true"><use href="#i-plus-small"/></svg></button></h3>
             <div class="faq-answer" id="faq-5" role="region" aria-labelledby="faq-b5" hidden>
-              <p>Por WhatsApp o por teléfono. Encontrarás los botones en la sección <a href="#contacto">Contacto</a>.</p>
+              <p>Por WhatsApp. Encontrarás los botones en la sección <a href="#contacto">Contacto</a>.</p>
             </div>
           </div>
         </div>
@@ -337,10 +350,7 @@
             <svg class="icon icon-fill" aria-hidden="true"><use href="#i-whatsapp"/></svg>
             Escribir por WhatsApp
           </a>
-          <a class="btn btn-navy" href="#contacto" data-tel>
-            <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
-            Llamar
-          </a>
+          
           <a class="btn btn-outline" href="#ubicacion">
             <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
             Ver ubicación
