@@ -206,8 +206,8 @@
     <!-- Nosotros -->
     <section class="section section-sky" id="nosotros">
       <div class="container about">
-        <img class="about-photo" src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&h=600&fit=crop&q=75&auto=format"
-             alt="Consultorio dental iluminado y ordenado" width="800" height="600" loading="lazy">
+        <img class="about-photo" src="assets/img/doctor.jpg"
+             alt="Dr. Francisco Alegría atendiendo a un paciente en su consultorio" width="486" height="530" loading="lazy">
 
         <div class="about-text">
           <p class="kicker">Sobre nosotros</p>
@@ -218,7 +218,9 @@
         </div>
 
         <aside class="doctor">
-          <svg class="doctor-icon" aria-hidden="true"><use href="#i-tooth"/></svg>
+          <img class="doctor-photo" src="assets/img/doctor-retrato.jpg" alt="Dr. Francisco Alegría" width="200" height="200" loading="lazy"
+               onerror="this.remove(); document.querySelector('.doctor-icon').hidden = false;">
+          <svg class="doctor-icon" aria-hidden="true" hidden><use href="#i-tooth"/></svg>
           <h3>Dr. Francisco Alegría</h3>
           <p class="doctor-role">Odontólogo</p>
           <p>N.º de Junta: 3282</p>
@@ -274,6 +276,7 @@
             <svg class="icon" aria-hidden="true"><use href="#i-nav"/></svg>
             Cómo llegar
           </a>
+          
         </div>
         <div class="map">
           <iframe id="mapa" title="Ubicación de Clínica Dental Dr. Alegría" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
