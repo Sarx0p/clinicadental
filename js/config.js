@@ -25,5 +25,10 @@ const CLINICA = {
 
   // Solo testimonios reales y con permiso del paciente.
   // Ejemplo: [{ texto: "...", autor: "María G." }]
-  testimonios: []
+  testimonios: [
+    {
+      texto: "Arreglar mi muela en Estados Unidos costaba $3,000. Francisco lo hizo todo, y más, por solo $225. Fueron 10 días de vacaciones mientras arreglaba mi muela: endodoncia, limpieza profunda, una corona y guardas nocturnas. ¡Imposible superarlo!",
+      autor: "Enrique Sigui · Opinión en Google"
+    }
+  ]
 };
