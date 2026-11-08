@@ -250,6 +250,8 @@ ul { list-style: none; margin: 0; padding: 0; }
   text-align: center;
 }
 .doctor-icon { width: 44px; height: 44px; margin: 0 auto 14px; fill: none; stroke: var(--teal); stroke-width: 1.5; stroke-linejoin: round; display: block; }
+.doctor-photo { width: 140px; height: 140px; margin: 0 auto 16px; border-radius: 50%; object-fit: cover; border: 4px solid var(--sky); }
+.doctor-icon[hidden] { display: none; }
 .doctor h3 { font-size: 1rem; }
 .doctor p { font-size: .88rem; margin: 0; }
 .doctor .doctor-role { color: var(--teal); font-weight: 600; text-transform: uppercase; letter-spacing: .08em; font-size: .8rem; margin-bottom: 4px; }
@@ -381,6 +383,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   .about { grid-template-columns: 1fr 1fr; }
   .doctor { grid-column: 1 / -1; display: grid; grid-template-columns: auto 1fr; gap: 4px 18px; text-align: left; align-items: center; }
   .doctor-icon { grid-row: span 2; margin: 0; }
+  .doctor-photo { grid-row: span 3; width: 96px; height: 96px; margin: 0; }
   .why { grid-template-columns: 1fr; gap: 24px; }
 }
 
@@ -420,6 +423,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   .about { grid-template-columns: 1fr; gap: 28px; }
   .doctor { display: block; text-align: center; }
   .doctor-icon { margin: 0 auto 12px; }
+  .doctor-photo { width: 120px; height: 120px; margin: 0 auto 14px; }
   .why-list { grid-template-columns: 1fr 1fr; }
   .why-list li { border-left: 0; }
   .why-list li:last-child { grid-column: 1 / -1; }
